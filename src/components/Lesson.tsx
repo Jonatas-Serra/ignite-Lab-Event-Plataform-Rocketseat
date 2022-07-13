@@ -30,7 +30,7 @@ const availableDateFormatted = format(props.availableAt, "EEEE' • 'd' de 'MMMM
                     ) : (
                         <span className="text-sm text-orange-500 font-medium flex items-center gap-2">
                         <Lock size={20}/>
-                        Em breve
+                        Em breve!
                     </span>
                     )}
                     <span className="text-xs rounded py-[0.125rem] px-2 text-white border border-green-300 font-bold">
